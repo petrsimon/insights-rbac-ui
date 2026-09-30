@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "key": "8d643c49a51ba57fdd078bd1e7925911c9d4ba5a27a397181cbf5ef8341fd8b4",
-  "phase": "importing",
+  "phase": "ready",
   "repository": "petrsimon/insights-rbac-ui",
   "baseRef": "RHCLOUD-51618",
   "sourceCommit": "55bc4cfa4f3b05e59e296ca18426589a0567290b",
@@ -46,95 +46,179 @@
   "jobs": [
     {
       "uid": "nvhBAQ3syREFfB00rMihHb",
+      "innerId": "1",
       "status": "NEW",
       "providers": [],
+      "sourceLang": "en_us",
       "targetLang": "zh_cn",
       "workflowLevel": 1,
       "workflowStep": {
         "name": "Translation",
         "id": "225677",
-        "uid": "Vm1j1nqsDSxM343cSZb17g",
         "order": 10,
-        "lqaEnabled": true
+        "workflowLevel": 1
       },
       "filename": "translation-template.json",
       "dateDue": null,
-      "dateCreated": "2026-09-30T11:41:59+0000",
+      "wordsCount": 9772,
+      "beginIndex": 0,
+      "endIndex": 1706,
+      "isParentJobSplit": false,
       "updateSourceDate": null,
-      "imported": false,
-      "jobAssignedEmailTemplate": null,
-      "notificationIntervalInMinutes": 0,
+      "updateTargetDate": null,
+      "dateCreated": "2026-09-30T11:41:59+0000",
+      "jobReference": {
+        "uid": "T9TyhNK69Br4ex7pF80MQ2",
+        "filename": "translation-template.json"
+      },
+      "project": {
+        "name": "pesimon-hcc-ui-testing",
+        "uid": "yWWEIEQgpNVK650YBQhGx6"
+      },
+      "lastWorkflowLevel": 1,
+      "workUnit": null,
+      "importStatus": {
+        "status": "OK",
+        "errorMessage": null
+      },
+      "imported": true,
       "continuous": false,
-      "sourceFileUid": "JZCrTy98OMVNfZv0OTSEi4"
+      "continuousJobInfo": null,
+      "originalFileDirectory": "",
+      "allWorkflowStepsSplit": true,
+      "serverTaskId": "70ou0ibD2kW7mfLG1_dc12"
     },
     {
       "uid": "WPRGh2J8FppA6Rgl4WBav2",
+      "innerId": "2",
       "status": "NEW",
       "providers": [],
+      "sourceLang": "en_us",
       "targetLang": "fr",
       "workflowLevel": 1,
       "workflowStep": {
         "name": "Translation",
         "id": "225677",
-        "uid": "Vm1j1nqsDSxM343cSZb17g",
         "order": 10,
-        "lqaEnabled": true
+        "workflowLevel": 1
       },
       "filename": "translation-template.json",
       "dateDue": null,
-      "dateCreated": "2026-09-30T11:41:59+0000",
+      "wordsCount": 9772,
+      "beginIndex": 0,
+      "endIndex": 1706,
+      "isParentJobSplit": false,
       "updateSourceDate": null,
-      "imported": false,
-      "jobAssignedEmailTemplate": null,
-      "notificationIntervalInMinutes": 0,
+      "updateTargetDate": null,
+      "dateCreated": "2026-09-30T11:41:59+0000",
+      "jobReference": {
+        "uid": "8ZW004oDjRDE0FVY1mKBm0",
+        "filename": "translation-template.json"
+      },
+      "project": {
+        "name": "pesimon-hcc-ui-testing",
+        "uid": "yWWEIEQgpNVK650YBQhGx6"
+      },
+      "lastWorkflowLevel": 1,
+      "workUnit": null,
+      "importStatus": {
+        "status": "OK",
+        "errorMessage": null
+      },
+      "imported": true,
       "continuous": false,
-      "sourceFileUid": "JZCrTy98OMVNfZv0OTSEi4"
+      "continuousJobInfo": null,
+      "originalFileDirectory": "",
+      "allWorkflowStepsSplit": true,
+      "serverTaskId": "TCqQiViHqwNxRPHq_dc11"
     },
     {
       "uid": "6GkLHRRuXhWO3N73qie9j2",
+      "innerId": "3",
       "status": "NEW",
       "providers": [],
+      "sourceLang": "en_us",
       "targetLang": "ko",
       "workflowLevel": 1,
       "workflowStep": {
         "name": "Translation",
         "id": "225677",
-        "uid": "Vm1j1nqsDSxM343cSZb17g",
         "order": 10,
-        "lqaEnabled": true
+        "workflowLevel": 1
       },
       "filename": "translation-template.json",
       "dateDue": null,
-      "dateCreated": "2026-09-30T11:41:59+0000",
+      "wordsCount": 9772,
+      "beginIndex": 0,
+      "endIndex": 1706,
+      "isParentJobSplit": false,
       "updateSourceDate": null,
-      "imported": false,
-      "jobAssignedEmailTemplate": null,
-      "notificationIntervalInMinutes": 0,
+      "updateTargetDate": null,
+      "dateCreated": "2026-09-30T11:41:59+0000",
+      "jobReference": {
+        "uid": "ve2Lnd3EraU94RlvE9Yuv2",
+        "filename": "translation-template.json"
+      },
+      "project": {
+        "name": "pesimon-hcc-ui-testing",
+        "uid": "yWWEIEQgpNVK650YBQhGx6"
+      },
+      "lastWorkflowLevel": 1,
+      "workUnit": null,
+      "importStatus": {
+        "status": "OK",
+        "errorMessage": null
+      },
+      "imported": true,
       "continuous": false,
-      "sourceFileUid": "JZCrTy98OMVNfZv0OTSEi4"
+      "continuousJobInfo": null,
+      "originalFileDirectory": "",
+      "allWorkflowStepsSplit": true,
+      "serverTaskId": "pGGRu0Ie1Ze7mfLG1_dc11"
     },
     {
       "uid": "97QURyvKu3Ej1Ona9rWAJ7",
+      "innerId": "4",
       "status": "NEW",
       "providers": [],
+      "sourceLang": "en_us",
       "targetLang": "ja",
       "workflowLevel": 1,
       "workflowStep": {
         "name": "Translation",
         "id": "225677",
-        "uid": "Vm1j1nqsDSxM343cSZb17g",
         "order": 10,
-        "lqaEnabled": true
+        "workflowLevel": 1
       },
       "filename": "translation-template.json",
       "dateDue": null,
-      "dateCreated": "2026-09-30T11:41:59+0000",
+      "wordsCount": 9772,
+      "beginIndex": 0,
+      "endIndex": 1706,
+      "isParentJobSplit": false,
       "updateSourceDate": null,
-      "imported": false,
-      "jobAssignedEmailTemplate": null,
-      "notificationIntervalInMinutes": 0,
+      "updateTargetDate": null,
+      "dateCreated": "2026-09-30T11:41:59+0000",
+      "jobReference": {
+        "uid": "djS7pRLav0gBlqG5WJq7Z1",
+        "filename": "translation-template.json"
+      },
+      "project": {
+        "name": "pesimon-hcc-ui-testing",
+        "uid": "yWWEIEQgpNVK650YBQhGx6"
+      },
+      "lastWorkflowLevel": 1,
+      "workUnit": null,
+      "importStatus": {
+        "status": "OK",
+        "errorMessage": null
+      },
+      "imported": true,
       "continuous": false,
-      "sourceFileUid": "JZCrTy98OMVNfZv0OTSEi4"
+      "continuousJobInfo": null,
+      "originalFileDirectory": "",
+      "allWorkflowStepsSplit": true,
+      "serverTaskId": "QGMmbelGmyVxRPHq_dc11"
     }
   ],
   "warningCount": 0,
