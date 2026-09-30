@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "key": "8d643c49a51ba57fdd078bd1e7925911c9d4ba5a27a397181cbf5ef8341fd8b4",
+  "phase": "creating",
+  "repository": "petrsimon/insights-rbac-ui",
+  "baseRef": "RHCLOUD-51618",
+  "sourceCommit": "55bc4cfa4f3b05e59e296ca18426589a0567290b",
+  "sourceDigest": "cc84cd42abfa8613d5c796b505bd85df8ad3f5284d1658a9607e378116e423d6",
+  "config": {
+    "projectUid": "yWWEIEQgpNVK650YBQhGx6",
+    "region": "eu",
+    "sourceCatalog": {
+      "path": "locales/translation-template.json",
+      "filename": "translation-template.json",
+      "adapter": "formatjs-json",
+      "locale": "en"
+    },
+    "targetAdapter": "formatjs-json",
+    "targetLocales": [
+      {
+        "phraseLocale": "fr",
+        "repositoryLocale": "fr",
+        "outputPath": "src/locales/fr.json"
+      },
+      {
+        "phraseLocale": "ja",
+        "repositoryLocale": "ja",
+        "outputPath": "src/locales/ja.json"
+      },
+      {
+        "phraseLocale": "ko",
+        "repositoryLocale": "ko",
+        "outputPath": "src/locales/ko.json"
+      },
+      {
+        "phraseLocale": "zh_cn",
+        "repositoryLocale": "zh-CN",
+        "outputPath": "src/locales/zh-CN.json"
+      }
+    ],
+    "completionPolicy": {
+      "default": "per-locale"
+    }
+  },
+  "createdAt": "2026-09-30T11:41:54.966Z",
+  "jobs": [],
+  "warningCount": 0,
+  "locales": {
+    "fr": {
+      "phase": "pending"
+    },
+    "ja": {
+      "phase": "pending"
+    },
+    "ko": {
+      "phase": "pending"
+    },
+    "zh_cn": {
+      "phase": "pending"
+    }
+  }
+}
