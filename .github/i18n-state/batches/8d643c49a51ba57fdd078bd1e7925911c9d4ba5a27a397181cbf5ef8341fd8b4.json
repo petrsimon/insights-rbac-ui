@@ -47,8 +47,19 @@
     {
       "uid": "nvhBAQ3syREFfB00rMihHb",
       "innerId": "1",
-      "status": "NEW",
-      "providers": [],
+      "status": "COMPLETED",
+      "providers": [
+        {
+          "type": "USER",
+          "id": "2318445",
+          "uid": "IpQy615HfDSL62ExG1eNVe",
+          "userName": "pesimon",
+          "firstName": "Petr",
+          "lastName": "Simon",
+          "email": "psimon@redhat.com",
+          "active": true
+        }
+      ],
       "sourceLang": "en_us",
       "targetLang": "zh_cn",
       "workflowLevel": 1,
@@ -91,8 +102,19 @@
     {
       "uid": "WPRGh2J8FppA6Rgl4WBav2",
       "innerId": "2",
-      "status": "NEW",
-      "providers": [],
+      "status": "ACCEPTED",
+      "providers": [
+        {
+          "type": "USER",
+          "id": "2318445",
+          "uid": "IpQy615HfDSL62ExG1eNVe",
+          "userName": "pesimon",
+          "firstName": "Petr",
+          "lastName": "Simon",
+          "email": "psimon@redhat.com",
+          "active": true
+        }
+      ],
       "sourceLang": "en_us",
       "targetLang": "fr",
       "workflowLevel": 1,
@@ -135,8 +157,19 @@
     {
       "uid": "6GkLHRRuXhWO3N73qie9j2",
       "innerId": "3",
-      "status": "NEW",
-      "providers": [],
+      "status": "ACCEPTED",
+      "providers": [
+        {
+          "type": "USER",
+          "id": "2318445",
+          "uid": "IpQy615HfDSL62ExG1eNVe",
+          "userName": "pesimon",
+          "firstName": "Petr",
+          "lastName": "Simon",
+          "email": "psimon@redhat.com",
+          "active": true
+        }
+      ],
       "sourceLang": "en_us",
       "targetLang": "ko",
       "workflowLevel": 1,
@@ -179,8 +212,19 @@
     {
       "uid": "97QURyvKu3Ej1Ona9rWAJ7",
       "innerId": "4",
-      "status": "NEW",
-      "providers": [],
+      "status": "ACCEPTED",
+      "providers": [
+        {
+          "type": "USER",
+          "id": "2318445",
+          "uid": "IpQy615HfDSL62ExG1eNVe",
+          "userName": "pesimon",
+          "firstName": "Petr",
+          "lastName": "Simon",
+          "email": "psimon@redhat.com",
+          "active": true
+        }
+      ],
       "sourceLang": "en_us",
       "targetLang": "ja",
       "workflowLevel": 1,
