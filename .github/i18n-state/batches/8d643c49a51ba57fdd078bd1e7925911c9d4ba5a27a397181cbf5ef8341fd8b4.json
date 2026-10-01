@@ -277,7 +277,8 @@
       "phase": "pending"
     },
     "zh_cn": {
-      "phase": "exporting"
+      "phase": "failed",
+      "failureReason": "Downloaded zh_cn catalog failed validation: formatjs-json message \"removeServiceAccountsText\" has invalid ICU syntax: MISSING_OTHER_CLAUSE"
     }
   },
   "importAsyncRequestId": "1866357714"
