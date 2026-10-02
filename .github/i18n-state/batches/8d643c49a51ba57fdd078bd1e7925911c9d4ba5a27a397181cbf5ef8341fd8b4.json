@@ -276,7 +276,8 @@
       "failureReason": "Final Phrase job ended with status CANCELLED"
     },
     "ko": {
-      "phase": "pending"
+      "phase": "failed",
+      "failureReason": "Final Phrase job ended with status CANCELLED"
     },
     "zh_cn": {
       "phase": "failed",
