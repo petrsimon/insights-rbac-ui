@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "key": "8d643c49a51ba57fdd078bd1e7925911c9d4ba5a27a397181cbf5ef8341fd8b4",
-  "phase": "ready",
+  "phase": "completed",
   "repository": "petrsimon/insights-rbac-ui",
   "baseRef": "RHCLOUD-51618",
   "sourceCommit": "55bc4cfa4f3b05e59e296ca18426589a0567290b",
