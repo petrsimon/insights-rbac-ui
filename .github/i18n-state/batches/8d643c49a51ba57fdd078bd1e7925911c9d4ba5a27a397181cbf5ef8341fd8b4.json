@@ -268,7 +268,8 @@
   "warningCount": 0,
   "locales": {
     "fr": {
-      "phase": "pending"
+      "phase": "failed",
+      "failureReason": "Final Phrase job ended with status CANCELLED"
     },
     "ja": {
       "phase": "pending"
