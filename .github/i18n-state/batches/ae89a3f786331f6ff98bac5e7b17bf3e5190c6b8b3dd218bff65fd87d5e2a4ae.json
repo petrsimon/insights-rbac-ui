@@ -79,7 +79,8 @@
   "warningCount": 0,
   "locales": {
     "zh_cn": {
-      "phase": "exporting"
+      "phase": "failed",
+      "failureReason": "Downloaded zh_cn catalog failed validation: ICU argument mismatches: deleteCustomRoleModalBody, deleteUserGroupModalBody, deleteWorkspaceModalBody, removeServiceAccounts, removeServiceAccountsText, selectPage"
     }
   },
   "importAsyncRequestId": "1868844377"
