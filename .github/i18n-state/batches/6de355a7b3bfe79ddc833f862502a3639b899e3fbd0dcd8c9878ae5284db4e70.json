@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "key": "6de355a7b3bfe79ddc833f862502a3639b899e3fbd0dcd8c9878ae5284db4e70",
-  "phase": "creating",
+  "phase": "importing",
   "repository": "petrsimon/insights-rbac-ui",
   "baseRef": "RHCLOUD-51618-remove-icu-html-tags",
   "sourceCommit": "8f9738fc84979209d237f3789bb010d382f17e27",
@@ -29,11 +29,36 @@
     }
   },
   "createdAt": "2026-10-02T14:24:35.698Z",
-  "jobs": [],
+  "jobs": [
+    {
+      "uid": "LobFojCtyNb57FRPdWsYX3",
+      "status": "NEW",
+      "providers": [],
+      "targetLang": "fr",
+      "workflowLevel": 1,
+      "workflowStep": {
+        "name": "Translation",
+        "id": "225677",
+        "uid": "Vm1j1nqsDSxM343cSZb17g",
+        "order": 10,
+        "lqaEnabled": true
+      },
+      "filename": "translation-template.json",
+      "dateDue": null,
+      "dateCreated": "2026-10-02T14:24:38+0000",
+      "updateSourceDate": null,
+      "imported": false,
+      "jobAssignedEmailTemplate": null,
+      "notificationIntervalInMinutes": 0,
+      "continuous": false,
+      "sourceFileUid": "lXd1ofJKjIRIjir45KVIw6"
+    }
+  ],
   "warningCount": 0,
   "locales": {
     "fr": {
       "phase": "pending"
     }
-  }
+  },
+  "importAsyncRequestId": "1869178435"
 }
