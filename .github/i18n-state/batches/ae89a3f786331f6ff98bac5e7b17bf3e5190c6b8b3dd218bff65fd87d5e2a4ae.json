@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "key": "ae89a3f786331f6ff98bac5e7b17bf3e5190c6b8b3dd218bff65fd87d5e2a4ae",
+  "attempt": 2,
+  "phase": "creating",
+  "repository": "petrsimon/insights-rbac-ui",
+  "baseRef": "RHCLOUD-51618",
+  "sourceCommit": "fe256483435ab4578720c7dfc771b1d5d68ad397",
+  "sourceDigest": "cc84cd42abfa8613d5c796b505bd85df8ad3f5284d1658a9607e378116e423d6",
+  "config": {
+    "projectUid": "yWWEIEQgpNVK650YBQhGx6",
+    "region": "eu",
+    "sourceCatalog": {
+      "path": "locales/translation-template.json",
+      "filename": "translation-template.json",
+      "adapter": "formatjs-json",
+      "locale": "en",
+      "useProjectFileImportSettings": true
+    },
+    "targetAdapter": "formatjs-json",
+    "targetLocales": [
+      {
+        "phraseLocale": "zh_cn",
+        "repositoryLocale": "zh-CN",
+        "outputPath": "src/locales/zh-CN.json"
+      }
+    ],
+    "completionPolicy": {
+      "default": "per-locale"
+    }
+  },
+  "createdAt": "2026-10-02T09:47:01.712Z",
+  "jobs": [],
+  "warningCount": 0,
+  "locales": {
+    "zh_cn": {
+      "phase": "pending"
+    }
+  }
+}
