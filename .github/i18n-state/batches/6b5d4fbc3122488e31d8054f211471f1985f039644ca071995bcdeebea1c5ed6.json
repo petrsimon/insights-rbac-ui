@@ -2,7 +2,7 @@
   "schema": 1,
   "key": "6b5d4fbc3122488e31d8054f211471f1985f039644ca071995bcdeebea1c5ed6",
   "attempt": 1,
-  "phase": "importing",
+  "phase": "ready",
   "repository": "petrsimon/insights-rbac-ui",
   "baseRef": "RHCLOUD-51618",
   "sourceCommit": "0fe46ffc65558c8e6b9b88aedf25fdbf586aace0",
@@ -33,26 +33,47 @@
   "jobs": [
     {
       "uid": "6Vl9kvc6GPGSdxZq4PcR21",
+      "innerId": "7",
       "status": "NEW",
       "providers": [],
+      "sourceLang": "en_us",
       "targetLang": "zh_cn",
       "workflowLevel": 1,
       "workflowStep": {
         "name": "Translation",
         "id": "225677",
-        "uid": "Vm1j1nqsDSxM343cSZb17g",
         "order": 10,
-        "lqaEnabled": true
+        "workflowLevel": 1
       },
       "filename": "translation-template.json",
       "dateDue": null,
-      "dateCreated": "2026-10-02T09:10:06+0000",
+      "wordsCount": 9590,
+      "beginIndex": 0,
+      "endIndex": 1607,
+      "isParentJobSplit": false,
       "updateSourceDate": null,
-      "imported": false,
-      "jobAssignedEmailTemplate": null,
-      "notificationIntervalInMinutes": 0,
+      "updateTargetDate": null,
+      "dateCreated": "2026-10-02T09:10:06+0000",
+      "jobReference": {
+        "uid": "ntyRhTZ1puhi1QO4MY6WI5",
+        "filename": "translation-template.json"
+      },
+      "project": {
+        "name": "pesimon-hcc-ui-testing",
+        "uid": "yWWEIEQgpNVK650YBQhGx6"
+      },
+      "lastWorkflowLevel": 1,
+      "workUnit": null,
+      "importStatus": {
+        "status": "OK",
+        "errorMessage": null
+      },
+      "imported": true,
       "continuous": false,
-      "sourceFileUid": "sSh3P867k8qhfNjXr2drp2"
+      "continuousJobInfo": null,
+      "originalFileDirectory": "",
+      "allWorkflowStepsSplit": true,
+      "serverTaskId": "NlVJ8097sUNTFXnR0_dc12"
     }
   ],
   "warningCount": 0,
