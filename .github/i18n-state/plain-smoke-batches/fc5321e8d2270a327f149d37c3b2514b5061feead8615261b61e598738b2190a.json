@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "key": "fc5321e8d2270a327f149d37c3b2514b5061feead8615261b61e598738b2190a",
+  "phase": "creating",
+  "repository": "petrsimon/insights-rbac-ui",
+  "baseRef": "RHCLOUD-51618-remove-icu-html-tags",
+  "sourceCommit": "205ce37bc7122f0e466152c0ab465e3a6702cea1",
+  "sourceDigest": "d66ce0f49d41dc3c2c9406ad3fb6d88aaebafd57de2a58f1ea28da5f96113870",
+  "config": {
+    "projectUid": "yWWEIEQgpNVK650YBQhGx6",
+    "region": "eu",
+    "sourceCatalog": {
+      "path": ".github/i18n-test/phrase-plain-smoke.source.json",
+      "filename": "phrase-plain-smoke.source.json",
+      "adapter": "formatjs-json",
+      "locale": "en",
+      "useProjectFileImportSettings": true
+    },
+    "targetAdapter": "formatjs-json",
+    "targetLocales": [
+      {
+        "phraseLocale": "fr",
+        "repositoryLocale": "fr",
+        "outputPath": ".github/i18n-test/phrase-plain-smoke.fr.json"
+      }
+    ],
+    "completionPolicy": {
+      "default": "per-locale"
+    }
+  },
+  "createdAt": "2026-10-02T16:37:16.522Z",
+  "jobs": [],
+  "warningCount": 0,
+  "locales": {
+    "fr": {
+      "phase": "pending"
+    }
+  }
+}
