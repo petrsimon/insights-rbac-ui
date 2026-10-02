@@ -102,7 +102,7 @@
     {
       "uid": "WPRGh2J8FppA6Rgl4WBav2",
       "innerId": "2",
-      "status": "ACCEPTED",
+      "status": "CANCELLED",
       "providers": [
         {
           "type": "USER",
@@ -157,7 +157,7 @@
     {
       "uid": "6GkLHRRuXhWO3N73qie9j2",
       "innerId": "3",
-      "status": "ACCEPTED",
+      "status": "CANCELLED",
       "providers": [
         {
           "type": "USER",
@@ -212,7 +212,7 @@
     {
       "uid": "97QURyvKu3Ej1Ona9rWAJ7",
       "innerId": "4",
-      "status": "ACCEPTED",
+      "status": "CANCELLED",
       "providers": [
         {
           "type": "USER",
