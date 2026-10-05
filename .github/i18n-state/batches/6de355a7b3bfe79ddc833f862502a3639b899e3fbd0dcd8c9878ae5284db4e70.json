@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "key": "6de355a7b3bfe79ddc833f862502a3639b899e3fbd0dcd8c9878ae5284db4e70",
-  "phase": "ready",
+  "phase": "completed",
   "repository": "petrsimon/insights-rbac-ui",
   "baseRef": "RHCLOUD-51618-remove-icu-html-tags",
   "sourceCommit": "8f9738fc84979209d237f3789bb010d382f17e27",
@@ -78,7 +78,8 @@
   "warningCount": 0,
   "locales": {
     "fr": {
-      "phase": "exporting"
+      "phase": "validation-failed",
+      "failureReason": "Downloaded fr catalog failed validation: ICU validation failed:\n  - formatjs-json message \"permissionWillNotBeGrantedThroughRole\" has invalid ICU syntax at pattern line 1, column 4: Unclosed tag (UNCLOSED_TAG)\n  - formatjs-json message \"removeMemberText\" has invalid ICU syntax at pattern line 1, column 8: Unclosed tag (UNCLOSED_TAG)\n  - formatjs-json message \"removeMembersText\" has invalid ICU syntax at pattern line 1, column 1: Unclosed tag (UNCLOSED_TAG)\n  - formatjs-json message \"removeRoleModalText\" has invalid ICU syntax at pattern line 1, column 6: Unclosed tag (UNCLOSED_TAG)\n  - formatjs-json message \"removeRolesModalText\" has invalid ICU syntax at pattern line 1, column 1: Unclosed tag (UNCLOSED_TAG)\n  - formatjs-json message \"usersAndUserGroupsAddUserDescription\" has invalid ICU syntax at pattern line 1, column 49: Unclosed tag (UNCLOSED_TAG)"
     }
   },
   "importAsyncRequestId": "1869178435"
