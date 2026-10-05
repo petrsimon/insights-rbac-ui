@@ -2,7 +2,7 @@
   "schema": 1,
   "key": "ae89a3f786331f6ff98bac5e7b17bf3e5190c6b8b3dd218bff65fd87d5e2a4ae",
   "attempt": 2,
-  "phase": "ready",
+  "phase": "completed",
   "repository": "petrsimon/insights-rbac-ui",
   "baseRef": "RHCLOUD-51618",
   "sourceCommit": "fe256483435ab4578720c7dfc771b1d5d68ad397",
@@ -79,7 +79,8 @@
   "warningCount": 0,
   "locales": {
     "zh_cn": {
-      "phase": "exporting"
+      "phase": "validation-failed",
+      "failureReason": "Downloaded zh_cn catalog failed validation: ICU argument mismatches: \"deleteCustomRoleModalBody\": source [count, name], target [count] (source renders {name} only in the \"one\" branch of plural {count}, which can be dropped in locales without that category; use an exact \"=N\" source branch for count-specific content), \"deleteUserGroupModalBody\": source [count, name], target [count] (source renders {name} only in the \"one\" branch of plural {count}, which can be dropped in locales without that category; use an exact \"=N\" source branch for count-specific content), \"deleteWorkspaceModalBody\": source [count, name], target [count] (source renders {name} only in the \"one\" branch of plural {count}, which can be dropped in locales without that category; use an exact \"=N\" source branch for count-specific content), \"removeServiceAccounts\": source [count], target [], \"removeServiceAccountsText\": source [count, group, name], target [count, group] (source renders {name} only in the \"one\" branch of plural {count}, which can be dropped in locales without that category; use an exact \"=N\" source branch for count-specific content)"
     }
   },
   "importAsyncRequestId": "1868844377"
