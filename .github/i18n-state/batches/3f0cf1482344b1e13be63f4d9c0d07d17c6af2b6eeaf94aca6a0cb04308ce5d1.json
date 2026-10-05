@@ -78,7 +78,8 @@
   "warningCount": 0,
   "locales": {
     "zh_cn": {
-      "phase": "exporting"
+      "phase": "pr-created",
+      "pullRequestUrl": "https://github.com/petrsimon/insights-rbac-ui/pull/2"
     }
   },
   "importAsyncRequestId": "1870385340"
