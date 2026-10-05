@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "key": "3f0cf1482344b1e13be63f4d9c0d07d17c6af2b6eeaf94aca6a0cb04308ce5d1",
-  "phase": "completed",
+  "phase": "ready",
   "repository": "petrsimon/insights-rbac-ui",
   "baseRef": "RHCLOUD-51618",
   "sourceCommit": "2a09e4932b74810323bbce23e4186eb60f726398",
@@ -78,8 +78,7 @@
   "warningCount": 0,
   "locales": {
     "zh_cn": {
-      "phase": "validation-failed",
-      "failureReason": "Downloaded zh_cn catalog failed validation: ICU argument mismatches: \"removeServiceAccounts\": source [count], target [], \"removeServiceAccountsText\": source [count, group, name], target [count, group], \"selectPage\": source [length], target []"
+      "phase": "exporting"
     }
   },
   "importAsyncRequestId": "1870385340"
