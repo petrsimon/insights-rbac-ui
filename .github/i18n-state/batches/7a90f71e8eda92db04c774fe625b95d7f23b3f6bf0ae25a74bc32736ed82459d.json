@@ -2,7 +2,7 @@
   "schema": 1,
   "key": "7a90f71e8eda92db04c774fe625b95d7f23b3f6bf0ae25a74bc32736ed82459d",
   "attempt": 3,
-  "phase": "completed",
+  "phase": "ready",
   "repository": "petrsimon/insights-rbac-ui",
   "baseRef": "RHCLOUD-51618",
   "sourceCommit": "27ef2fc3b52e5adacc38a12ec503d9009e8567f9",
@@ -79,8 +79,7 @@
   "warningCount": 0,
   "locales": {
     "zh_cn": {
-      "phase": "validation-failed",
-      "failureReason": "Downloaded zh_cn catalog failed validation: ICU validation failed:\n  - formatjs-json message \"removeMemberText\" has invalid ICU syntax at pattern line 1, column 26: Unclosed tag (UNCLOSED_TAG)\n  - formatjs-json message \"removeMembersText\" has invalid ICU syntax at pattern line 1, column 27: Unclosed tag (UNCLOSED_TAG)\n  - formatjs-json message \"removeRoleModalText\" has invalid ICU syntax at pattern line 1, column 26: Unclosed tag (UNCLOSED_TAG)\n  - formatjs-json message \"removeRolesModalText\" has invalid ICU syntax at pattern line 1, column 1: Unclosed tag (UNCLOSED_TAG)\n  - formatjs-json message \"removeServiceAccountsText\" has invalid ICU syntax at pattern line 1, column 24: Unclosed tag (UNCLOSED_TAG)"
+      "phase": "exporting"
     }
   },
   "importAsyncRequestId": "1869075789"
