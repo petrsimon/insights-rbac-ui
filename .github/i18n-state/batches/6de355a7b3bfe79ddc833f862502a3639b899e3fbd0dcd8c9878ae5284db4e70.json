@@ -78,8 +78,8 @@
   "warningCount": 0,
   "locales": {
     "fr": {
-      "phase": "validation-failed",
-      "failureReason": "Downloaded fr catalog failed validation: ICU validation failed:\n  - formatjs-json message \"permissionWillNotBeGrantedThroughRole\" has invalid ICU syntax at pattern line 1, column 4: Unclosed tag (UNCLOSED_TAG)\n  - formatjs-json message \"removeMemberText\" has invalid ICU syntax at pattern line 1, column 8: Unclosed tag (UNCLOSED_TAG)\n  - formatjs-json message \"removeMembersText\" has invalid ICU syntax at pattern line 1, column 1: Unclosed tag (UNCLOSED_TAG)\n  - formatjs-json message \"removeRoleModalText\" has invalid ICU syntax at pattern line 1, column 6: Unclosed tag (UNCLOSED_TAG)\n  - formatjs-json message \"removeRolesModalText\" has invalid ICU syntax at pattern line 1, column 1: Unclosed tag (UNCLOSED_TAG)\n  - formatjs-json message \"usersAndUserGroupsAddUserDescription\" has invalid ICU syntax at pattern line 1, column 49: Unclosed tag (UNCLOSED_TAG)"
+      "phase": "failed",
+      "failureReason": "Invalidated 2026-10-05: abandoned pilot batch from RHCLOUD-51618-remove-icu-html-tags; not reconciled further. Previous validation-failed reason: Downloaded fr catalog failed validation: ICU validation failed:\n  - formatjs-json message \"permissionWillNotBeGrantedThroughRole\" has invalid ICU syntax at pattern line 1, column 4: Unclosed tag (UNCLOSED_TAG)\n  - formatjs-json message \"removeMemberText\" has invalid ICU syntax at pattern line 1, column 8: Unclosed tag (UNCLOSED_TAG)\n  - formatjs-json message \"removeMembersText\" has invalid ICU syntax at pattern line 1, column 1: Unclosed tag (UNCLOSED_TAG)\n  - formatjs-json message \"removeRoleModalText\" has invalid ICU syntax at pattern line 1, column 6: Unclosed tag (UNCLOSED_TAG)\n  - formatjs-json message \"removeRolesModalText\" has invalid ICU syntax at pattern line 1, column 1: Unclosed tag (UNCLOSED_TAG)\n  - formatjs-json message \"usersAndUserGroupsAddUserDescription\" has invalid ICU syntax at pattern line 1, column 49: Unclosed tag (UNCLOSED_TAG)"
     }
   },
   "importAsyncRequestId": "1869178435"
