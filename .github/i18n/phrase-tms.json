@@ -1,0 +1,29 @@
+{
+  "provider": "phrase",
+  "project": {
+    "uid": "yWWEIEQgpNVK650YBQhGx6",
+    "region": "eu"
+  },
+  "state": {
+    "branch": "i18n-tms-state-hub-pilot",
+    "directory": ".github/i18n-state/batches"
+  },
+  "sourceCatalog": {
+    "path": "locales/translation-template.json",
+    "filename": "insights-rbac-ui.ui.en.json",
+    "adapter": "formatjs-json",
+    "locale": "en",
+    "useProjectFileImportSettings": true
+  },
+  "targetAdapter": "formatjs-json",
+  "targetLocales": [
+    {
+      "phraseLocale": "zh_cn",
+      "repositoryLocale": "zh-CN",
+      "outputPath": "src/locales/zh-CN.json"
+    }
+  ],
+  "completionPolicy": {
+    "default": "per-locale"
+  }
+}
