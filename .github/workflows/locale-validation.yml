@@ -6,8 +6,11 @@ on:
       - .github/workflows/locale-validation.yml
       - i18n/catalog-validation.json
       - i18n/phrase-tms.json
+      - i18n/phrase-tms-feo.json
       - locales/**
       - messages/**
+      - deploy/frontend.yaml
+      - deploy/locales/**
       - src/Messages.js
       - src/*.js
       - package.json
