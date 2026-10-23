@@ -20,7 +20,8 @@
       "role": "source"
     }
   ],
-  "catalogDirectories": [{ "path": "locales" }],
+  "tmsConfig": "i18n/phrase-tms.json",
+  "catalogDirectories": [{ "path": "locales" }, { "path": "messages" }],
   "sourceLint": {
     "files": ["src/Messages.js"],
     "catalog": "locales/translation-template.json"
